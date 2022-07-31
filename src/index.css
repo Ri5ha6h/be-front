@@ -1,0 +1,17 @@
+/* .ant-list-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+} */
+@import 'antd/dist/antd.css';
+
+.ant-list-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
