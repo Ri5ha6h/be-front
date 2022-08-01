@@ -38,7 +38,7 @@ function App() {
             <Navbar />
             <Note />
             {notes && notes.length > 0 && (
-                <div className="mt-24 p-28">
+                <div className="mt-24 p-10 md:p-20 lg:p-28">
                     <p className="text-xl font-semibold p-8">Notes :</p>
                     <List
                         pagination={{
